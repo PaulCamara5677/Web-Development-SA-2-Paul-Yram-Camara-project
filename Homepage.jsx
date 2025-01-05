@@ -18,25 +18,13 @@ const LocationPage = () => {
 const [locations, setLocations] = useState([]);
 
 useEffect(() => {
-axios.get('http://localhost:5000/locations')
-.then(response => setLocations(response.data))
-.catch(error => console.error(error));
-}, []);
+aximport React from 'react';
 
-return (
-<div>
-<h1>Our Locations</h1>
-<div style={{ display: 'flex', flexWrap: 'wrap' }}>
-{locations.map((location) => (
-<div key={location.id} style={{ margin: '20px', textAlign: 'center' }}>
-<img src={location.images[0]} alt={location.name} style={{ width: '200px', height: '150px' }} />
-<h2>{location.name}</h2>
-<p>{location.description}</p>
-</div>
-))}
-</div>
-</div>
+const HomePage = () => (
+  <div style={{ textAlign: 'center', padding: '20px' }}>
+    <h1>Welcome to Our Tourism Website</h1>
+    <p>Discover breathtaking destinations and plan your next adventure!</p>
+  </div>
 );
-};
 
-export default LocationPage;
+export default HomePage;
