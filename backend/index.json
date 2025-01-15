@@ -1,0 +1,55 @@
+{
+    "header": {
+      "logo": "Teyvat Tourism",
+      "nav": {
+        "links": [
+          { "label": "Home", "url": "#" },
+          { "label": "Personnel", "url": "#" },
+          { "label": "For You", "url": "#" },
+          { "label": "Sign Up / Log In", "url": "#" }
+        ],
+        "dropdown": {
+          "label": "Countries",
+          "items": [
+            { "label": "Mondstat", "url": "#" },
+            { "label": "Liyue", "url": "#" },
+            { "label": "Inazuma", "url": "#" },
+            { "label": "Sumeru", "url": "#" },
+            { "label": "Fontaine", "url": "#" },
+            { "label": "Natlan", "url": "#" },
+            { "label": "Snezhnaya", "url": "#" }
+          ]
+        }
+      }
+    },
+    "slider": [
+      { "src": "imgs/Favonius_Cathedral_Exterior.png", "alt": "Favonious Church" },
+      { "src": "imgs/Mondstadt.webp", "alt": "Nature" },
+      { "src": "imgs/Ruins.png", "alt": "Ruins" }
+    ],
+    "main": {
+      "welcome": {
+        "title": "Welcome to Mondstat",
+        "quote": "\"Listen and follow where the winds may lead you.\""
+      },
+      "description": {
+        "text": "Mondstat is known for its freedom-loving citizens, breathtaking scenery, and lively festivals. Known as the 'City of Freedom,' Mondstadt welcomes visitors from all over Teyvat...",
+        "image": { "src": "imgs/Barbatos-statue.png", "alt": "Ludi Harpastum" }
+      },
+      "highlights": [
+        {
+          "image": { "src": "imgs/Big-Hunter-restaurant.png", "alt": "Local Restaurants" },
+          "text": "Experience the best cuisines at Mondstat's local restaurants and taverns."
+        },
+        {
+          "image": { "src": "imgs/Goth_Grand_Hotel.png", "alt": "Cozy Inns" },
+          "text": "Relax in cozy inns that offer comfort for both travelers and locals alike."
+        }
+      ]
+    },
+    "footer": {
+      "text": "© 2025 Teyvat Tourism. All rights reserved.",
+      "socialMedia": "Follow us on social media: [Icons]"
+    }
+  }
+  
