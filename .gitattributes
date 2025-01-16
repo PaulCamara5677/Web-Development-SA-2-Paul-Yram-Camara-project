@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+project/
+├── public/
+│   ├── imgs/                # Images for the website
+│   ├── style.css            # CSS file
+│   ├── index.html           # HTML file
+│   ├── index.js             # Frontend JS file
+│   └── index.json           # JSON file for frontend data
+├── node_modules/            # Node.js modules
+├── server.js                # Backend server
+├── package.json             # Project metadata
+├── package-lock.json        # Dependency tree
+└── .env                     # Environment variables
